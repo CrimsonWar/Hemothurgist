@@ -1,0 +1,47 @@
+{   
+   "name": "PF2eHemothurgist",   
+   "title": "Pathfinder 2e Hemothurgist",   
+   "description": "SokinAshrah Hemothurgist Handbook",   
+   "author": "Azure/SokinAshrah",
+   "version": "1.0.0",
+   "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "hemoclass",
+      "label": "Hemothurgist",
+      "path": "packs/hemothurgist.db",
+      "entity": "Item",
+      "module": "PF2eHemothurgist",
+      "system": ["pf2e"]
+    },
+    {
+      "name": "hemofeats",
+      "label": "Hemothurgist Feats",
+      "path": "packs/hemothurgist-feats.db",
+      "entity": "Item",
+      "module": "PF2eHemothurgist",
+      "system": ["pf2e"]
+    },
+    {
+      "name": "hemotech",
+      "label": "Hemothurgist Scarlet Techniques",
+      "path": "packs/hemothurgist-scarlet-techniques.db",
+      "entity": "Item",
+      "module": "PF2eHemothurgist",
+      "system": ["pf2e"]
+    },{
+      "name": "hemoarch",
+      "label": "Hemothurgist Archetype",
+      "path": "packs/hemothurgist-archetype.db",
+      "entity": "Item",
+      "module": "PF2eHemothurgist",
+      "system": ["pf2e"]
+    }
+  ],
+  "url": "https://github.com/CrimsonWar/Hemothurgist",
+  "manifest": "https://raw.githubusercontent.com/CrimsonWar/RevenantArkon/main/module.json",
+  "download": "https://gitlab.com/asacolips-projects/foundry-mods/combat-enhancements/-/archive/1.2.1/combat-enhancements-master.zip"
+ }
