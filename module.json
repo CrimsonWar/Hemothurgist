@@ -42,6 +42,6 @@
     }
   ],
   "url": "https://github.com/CrimsonWar/Hemothurgist",
-  "manifest": "https://raw.githubusercontent.com/CrimsonWar/RevenantArkon/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/CrimsonWar/Hemothurgist/main/module.json",
   "download": "https://gitlab.com/asacolips-projects/foundry-mods/combat-enhancements/-/archive/1.2.1/combat-enhancements-master.zip"
  }
