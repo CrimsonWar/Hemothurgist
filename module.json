@@ -12,7 +12,7 @@
     {
       "name": "hemoclass",
       "label": "Hemothurgist",
-      "path": "packs/hemothurgist.db",
+      "path": "packs/hemothurgist",
       "private": false,
       "type": "Item",
       "system": "pf2e",
@@ -21,7 +21,7 @@
     {
       "name": "hemofeats",
       "label": "Hemothurgist Feats",
-      "path": "packs/hemothurgist-feats.db",
+      "path": "packs/hemothurgist-feats",
       "private": false,
       "type": "Item",
       "system": "pf2e",
@@ -30,7 +30,7 @@
     {
       "name": "hemotech",
       "label": "Hemothurgist Scarlet Techniques",
-      "path": "packs/hemothurgist-scarlet-techniques.db",
+      "path": "packs/hemothurgist-scarlet-techniques",
       "private": false,
       "type": "Item",
       "system": "pf2e",
@@ -38,7 +38,7 @@
     },{
       "name": "hemoarch",
       "label": "Hemothurgist Archetype",
-      "path": "packs/hemothurgist-archetype.db",
+      "path": "packs/hemothurgist-archetype",
       "private": false,
       "type": "Item",
       "system": "pf2e",
