@@ -3,7 +3,7 @@
    "title": "Pathfinder 2e Hemothurgist",   
    "description": "SokinAshrah Hemothurgist Handbook",   
    "author": "Azure/SokinAshrah",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "compatibility": {
     "minimum": "9",
     "verified": "10"
@@ -13,34 +13,51 @@
       "name": "hemoclass",
       "label": "Hemothurgist",
       "path": "packs/hemothurgist.db",
-      "entity": "Item",
-      "module": "PF2eHemothurgist",
-      "system": ["pf2e"]
+      "private": false,
+      "type": "Item",
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "name": "hemofeats",
       "label": "Hemothurgist Feats",
       "path": "packs/hemothurgist-feats.db",
-      "entity": "Item",
-      "module": "PF2eHemothurgist",
-      "system": ["pf2e"]
+      "private": false,
+      "type": "Item",
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "name": "hemotech",
       "label": "Hemothurgist Scarlet Techniques",
       "path": "packs/hemothurgist-scarlet-techniques.db",
-      "entity": "Item",
-      "module": "PF2eHemothurgist",
-      "system": ["pf2e"]
+      "private": false,
+      "type": "Item",
+      "system": "pf2e",
+      "flags": {}
     },{
       "name": "hemoarch",
       "label": "Hemothurgist Archetype",
       "path": "packs/hemothurgist-archetype.db",
-      "entity": "Item",
-      "module": "PF2eHemothurgist",
-      "system": ["pf2e"]
+      "private": false,
+      "type": "Item",
+      "system": "pf2e",
+      "flags": {}
     }
   ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "4.0.0",
+          "verified": "4.8.0"
+        }
+      }
+    ]
+  },
   "url": "https://github.com/CrimsonWar/Hemothurgist",
   "manifest": "https://raw.githubusercontent.com/CrimsonWar/Hemothurgist/main/module.json",
   "download": "https://github.com/CrimsonWar/Hemothurgist/archive/refs/tags/release-standard.zip"
